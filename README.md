@@ -3,6 +3,7 @@
 Use this tool to spam a person's email
 
 <b> Use this tool for educational purpose only !! </b>
+<b> You can send maximum 300 mail at a time !! </b>
 
 Requirements :
 
@@ -10,8 +11,8 @@ Requirements :
 
 For termux user :
 
--Import git package using "pkg install git"
--Install python using "apt install python -y"
+- Import git package using "pkg install git"
+- Install python using "apt install python -y"
 
 Usage :
 
