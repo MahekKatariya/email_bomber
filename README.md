@@ -19,3 +19,5 @@ Usage :
 1) git clone https://github.com/MahekKatariya/email_bomber.git
 2) cd email_bomber
 3) python emailbomber.py
+
+If is there any issue message me !!!
