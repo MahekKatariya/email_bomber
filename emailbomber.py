@@ -82,7 +82,7 @@ try:
         time.sleep(0.5)
         sys.stdout.flush()
     server.quit()
-    print('\n Done !!!')
+    print('\nDone !!!')
 except KeyboardInterrupt:
     print('[-] Canceled')
     sys.exit()
