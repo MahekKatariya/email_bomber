@@ -76,7 +76,7 @@ print()
 
 try:
     for i in range(1, total+1):
-        msg = 'From: ' + user + '\nSubject: ' + subject + '\n\n' + body
+        msg = 'From: ' + email + '\nSubject: ' + subject + '\n\n' + body
         server.sendmail(email,to,msg)
         print("\rE-mails sent: ",i)
         time.sleep(0.5)
