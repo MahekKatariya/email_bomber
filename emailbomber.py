@@ -4,7 +4,6 @@
 #Use it at your own risk !!!
 
 
-
 import smtplib
 import sys
 import time
@@ -85,4 +84,7 @@ try:
     print('\nDone !!!')
 except KeyboardInterrupt:
     print('[-] Canceled')
+    sys.exit()
+except SMTPException:
+    print("Error Occured : \nReasons - \n1.Check Your internet connection \n2.Error in sending email \n3.You didn't verify your mobile number for this email \n4.Some internal error occured please try again.")
     sys.exit()
