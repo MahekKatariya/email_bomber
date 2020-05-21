@@ -8,6 +8,11 @@ Requirements :
 
 - Need to install python3 in your computer
 
+For termux user :
+
+-Import git package using "pkg install git"
+-Install python using "apt install python -y"
+
 Usage :
 
 1) git clone https://github.com/MahekKatariya/email_bomber.git
