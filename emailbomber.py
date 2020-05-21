@@ -5,7 +5,6 @@
 
 
 
-import os
 import smtplib
 import sys
 import time
